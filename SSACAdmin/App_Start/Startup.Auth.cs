@@ -58,11 +58,11 @@ namespace SSACAdmin
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = @"541667360803-lplrkkl8oe0rbdb8rsbd7nef7jo227oh.apps.googleusercontent.com",
+                ClientSecret = @"6sfiky1FhrJ-m_MhC4JQR--X"
+            });
         }
     }
 }
